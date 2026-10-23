@@ -1,6 +1,6 @@
 {
   "name": "sveltekit-pdf-renderer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Render Svelte components as PDF responses from SvelteKit endpoints.",
   "keywords": [
     "pdf",
@@ -44,13 +44,16 @@
     "prepublishOnly": "pnpm format:check && pnpm lint && pnpm check && pnpm build"
   },
   "dependencies": {
-    "effect": "4.0.0-rc.108",
+    "effect": "4.0.5",
     "puppeteer": "^25.5.0"
   },
   "devDependencies": {
     "@effect/language-service": "0.87.2",
+    "@sveltejs/kit": "2.70.2",
+    "@types/node": "^24.13.3",
     "oxfmt": "^0.62.0",
     "oxlint": "1.77.0",
+    "svelte": "5.56.8",
     "typescript": "^6.0.2"
   },
   "peerDependencies": {
