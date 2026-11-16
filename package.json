@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "effect": "4.0.5",
-    "puppeteer": "^25.5.0"
+    "puppeteer": "^25.17.0"
   },
   "devDependencies": {
     "@effect/language-service": "0.87.2",
